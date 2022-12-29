@@ -1,0 +1,128 @@
+main {
+  text-align: center;
+  padding: 1em;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #ff3e00;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 100;
+}
+
+@media (min-width: 640px) {
+  main {
+    max-width: none;
+  }
+}
+.cards_wrap {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cards_wrap .card_item {
+  width: 25%;
+}
+
+.cards_wrap .card_inner {
+  border-radius: 5px;
+  min-height: 315px;
+  max-height: 370px;
+  max-width: 250px;
+  width: 100%;
+}
+
+.cards_wrap .card_item img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 50px;
+}
+.cards_wrap .card_item img:hover {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 50px;
+}
+.cards_wrap .card_item .film {
+  font-size: 14px;
+  line-height: 24px;
+  color: #7b8ca0;
+}
+.role_name {
+  color: #ff3e00;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+button {
+  margin: 10px;
+  border-radius: 5px;
+  /* position: absolute; */
+    /* top:50%; */
+    background-color:black;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding: 10px;
+    /* min-height:30px; 
+    min-width: 120px; */
+}
+button:hover {
+  margin: 10px;
+  border-radius: 5px;
+  /* position: absolute; */
+    /* top:50%; */
+    background-color:#7b8ca0;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding: 10px;
+    /* min-height:30px; 
+    min-width: 120px; */
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.checkout {
+  position: absolute;
+  top: 600px;
+  right: 43%;
+  background-color: #C5844F;
+  padding-left: 50px ;
+  padding-right: 50px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+.checkout:hover {
+  position: absolute;
+  top: 600px;
+  right: 43%;
+  background-color: #735F32;
+  padding-left: 50px ;
+  padding-right: 50px;
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+.price {
+  padding-bottom: 20px;
+}
